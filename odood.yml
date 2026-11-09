@@ -1,0 +1,24 @@
+%YAML 1.1
+---
+project_root: /home/tokyo_toshu/Projects/odoo/odoo-17
+odoo:
+  branch: !!str '17.0'
+  testconfigfile: /home/tokyo_toshu/Projects/odoo/odoo-17/conf/odoo.test.conf
+  pidfile: /home/tokyo_toshu/Projects/odoo/odoo-17/odoo.pid
+  version: !!str '17.0'
+  repo: https://github.com/odoo/odoo.git
+  path: /home/tokyo_toshu/Projects/odoo/odoo-17/odoo
+  configfile: /home/tokyo_toshu/Projects/odoo/odoo-17/conf/odoo.conf
+  logfile: /home/tokyo_toshu/Projects/odoo/odoo-17/logs/odoo.log
+  server-supervisor: odood
+directories:
+  downloads: /home/tokyo_toshu/Projects/odoo/odoo-17/downloads
+  addons: /home/tokyo_toshu/Projects/odoo/odoo-17/custom_addons
+  backups: /home/tokyo_toshu/Projects/odoo/odoo-17/backups
+  log: /home/tokyo_toshu/Projects/odoo/odoo-17/logs
+  cache: /home/tokyo_toshu/Projects/odoo/odoo-17/cache
+  repositories: /home/tokyo_toshu/Projects/odoo/odoo-17/repositories
+  conf: /home/tokyo_toshu/Projects/odoo/odoo-17/conf
+virtualenv:
+  path: /home/tokyo_toshu/Projects/odoo/odoo-17/venv
+  python_serie: 3

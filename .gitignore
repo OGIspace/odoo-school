@@ -1,0 +1,8 @@
+venv/
+odoo/
+data/
+logs/
+backups/
+downloads/
+cache/
+odoo.pid
